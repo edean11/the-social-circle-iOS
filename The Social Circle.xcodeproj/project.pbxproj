@@ -409,6 +409,7 @@
 				8FCF90B01B5C4DEB00933C76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FCF90B11B5C4DEB00933C76 /* Build configuration list for PBXNativeTarget "The Social CircleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				8FCF90B31B5C4DEB00933C76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
