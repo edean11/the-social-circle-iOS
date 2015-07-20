@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F7737911B5C89A800C836C3 /* DefaultLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7737901B5C89A800C836C3 /* DefaultLocationViewController.swift */; };
 		8FCF90951B5C4DEB00933C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF90941B5C4DEB00933C76 /* AppDelegate.swift */; };
 		8FCF90971B5C4DEB00933C76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF90961B5C4DEB00933C76 /* ViewController.swift */; };
 		8FCF909A1B5C4DEB00933C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCF90981B5C4DEB00933C76 /* Main.storyboard */; };
 		8FCF909C1B5C4DEB00933C76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCF909B1B5C4DEB00933C76 /* Images.xcassets */; };
 		8FCF909F1B5C4DEB00933C76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FCF909D1B5C4DEB00933C76 /* LaunchScreen.xib */; };
 		8FCF90AB1B5C4DEB00933C76 /* The_Social_CircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF90AA1B5C4DEB00933C76 /* The_Social_CircleTests.swift */; };
+		D86570317A379ECB36AA7F81 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAB563EE481BD14BD9B4F8A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6BF3F472C5F4CA4CDA8CF470 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8F7737901B5C89A800C836C3 /* DefaultLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLocationViewController.swift; sourceTree = "<group>"; };
 		8FCF908F1B5C4DEB00933C76 /* The Social Circle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Social Circle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCF90931B5C4DEB00933C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FCF90941B5C4DEB00933C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		8FCF90A41B5C4DEB00933C76 /* The Social CircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Social CircleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCF90A91B5C4DEB00933C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FCF90AA1B5C4DEB00933C76 /* The_Social_CircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Social_CircleTests.swift; sourceTree = "<group>"; };
+		BDAB563EE481BD14BD9B4F8A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C529618CC8F556CB843BB3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86570317A379ECB36AA7F81 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +63,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		086F600DDCC24164FE16AC84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7C529618CC8F556CB843BB3 /* Pods.debug.xcconfig */,
+				6BF3F472C5F4CA4CDA8CF470 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8165178AC43D60DE883671FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDAB563EE481BD14BD9B4F8A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FCF90861B5C4DEB00933C76 = {
 			isa = PBXGroup;
 			children = (
 				8FCF90911B5C4DEB00933C76 /* The Social Circle */,
 				8FCF90A71B5C4DEB00933C76 /* The Social CircleTests */,
 				8FCF90901B5C4DEB00933C76 /* Products */,
+				086F600DDCC24164FE16AC84 /* Pods */,
+				8165178AC43D60DE883671FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +109,7 @@
 				8FCF909B1B5C4DEB00933C76 /* Images.xcassets */,
 				8FCF909D1B5C4DEB00933C76 /* LaunchScreen.xib */,
 				8FCF90921B5C4DEB00933C76 /* Supporting Files */,
+				8F7737901B5C89A800C836C3 /* DefaultLocationViewController.swift */,
 			);
 			path = "The Social Circle";
 			sourceTree = "<group>";
@@ -119,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FCF90AE1B5C4DEB00933C76 /* Build configuration list for PBXNativeTarget "The Social Circle" */;
 			buildPhases = (
+				8CA0EDDF85CB8132C2AB660D /* Check Pods Manifest.lock */,
 				8FCF908B1B5C4DEB00933C76 /* Sources */,
 				8FCF908C1B5C4DEB00933C76 /* Frameworks */,
 				8FCF908D1B5C4DEB00933C76 /* Resources */,
+				A44BE73E6686645EA08B2AFA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,12 +236,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CA0EDDF85CB8132C2AB660D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A44BE73E6686645EA08B2AFA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FCF908B1B5C4DEB00933C76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8FCF90971B5C4DEB00933C76 /* ViewController.swift in Sources */,
+				8F7737911B5C89A800C836C3 /* DefaultLocationViewController.swift in Sources */,
 				8FCF90951B5C4DEB00933C76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +401,7 @@
 		};
 		8FCF90AF1B5C4DEB00933C76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C529618CC8F556CB843BB3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "The Social Circle/Info.plist";
@@ -348,6 +412,7 @@
 		};
 		8FCF90B01B5C4DEB00933C76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF3F472C5F4CA4CDA8CF470 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "The Social Circle/Info.plist";
